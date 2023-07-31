@@ -1,0 +1,38 @@
+.historyWrapper {
+    padding-top: 30px;
+
+    .groupName {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        span {
+            background: #1976d2;
+            border-radius: 35px;
+            color: white;
+            width: fit-content;
+            padding: 1px 11px;
+            font-size: 14px;
+            height: 26px;
+        }
+    }
+
+    .historyListingItem {
+        border: 1px solid #8080805e;
+        border-radius: 8px;
+        margin-bottom: 40px;
+    }
+    .historyHeader {
+        position: relative;
+        padding: 20px;
+        .deleteIcon {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+        }
+    }
+    // custom css for boostrap table
+    .table {
+        margin-bottom: 0 !important;
+    }
+}
